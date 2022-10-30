@@ -1,6 +1,6 @@
 {
-    "name": "v4l2camera",
-    "version": "1.2.0",
+    "name": "v4l2camera-pr48-mac",
+    "version": "1.2.0-mac",
     "publishConfig": {
         "registry": "https://bin.barco.com/artifactory/api/npm/npm-local"
     },
@@ -39,7 +39,8 @@
     },
     "os": [
         "linux",
-        "android"
+        "android",
+	"darwin"
     ],
     "dependencies": {
         "nan": "^2.14.0"
